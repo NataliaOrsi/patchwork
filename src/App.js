@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
+     <NavigationBar />
      <h1>Trabalhos em Patchwork</h1>
      <h2>por Ivanete de Mesquita Orsi Vieira</h2>
     </div>
