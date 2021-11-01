@@ -1,3 +1,38 @@
+.App nav {
+  box-shadow: rgba(114, 73, 100, 0.08) 0px 8px 8px 0;
+}
+
 .App h1 {
+  font-size: 44px;
+  color: #c84361;
+}
+
+.App .Home h2 {
+  font-size: 36px;
+  margin-left: 200px;
+  color: rgba(231, 135, 117, 0.5);
+}
+
+.App h2 {
+  font-size: 36px;
+  color: #c84361;
+}
+
+.App nav li {
+  padding: 5px;
+}
+
+.App a {
+  color: #c84361;
+  text-decoration: none;
+}
+
+.App footer {
   text-align: center;
+  margin-top: 10px;;
+}
+
+.App .header {
+  text-align: center;
+  margin: 50px;
 }

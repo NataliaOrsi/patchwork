@@ -3,7 +3,9 @@ import React from "react";
 export default function About() {
   return (
     <div className="About">
-      <h2>Sobre</h2>
+      <section className="header">
+        <h2>Sobre</h2>
+      </section>
       <p>
         Minha relação com o artesanato vem de criança, ao ver a minha mãe
         costurar, bordar e fazer crochê, sempre me interessei e aprendi com ela
