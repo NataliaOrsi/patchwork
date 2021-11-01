@@ -1,12 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function NavigationBar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Home
-          </a>
+          <Link to="/">Home</Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,24 +23,16 @@ export default function NavigationBar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Sobre
-                </a>
+                <Link to="/about">Sobre</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Projetos
-                </a>
+                <Link to="/projects">Projetos</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Encomenda
-                </a>
+                <Link to="/order">Encomenda</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contato
-                </a>
+                <Link to="/contact">Contato</Link>
               </li>
             </ul>
           </div>
