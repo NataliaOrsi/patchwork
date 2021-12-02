@@ -6,7 +6,7 @@ export default function Home() {
       <div className="Home">
         <section className="header">
           <h1>Trabalhos em Patchwork</h1>
-          <h2>por Ivanete de Mesquita Orsi Vieira</h2>
+          <h3>por Ivanete de Mesquita Orsi Vieira</h3>
         </section>
         <Photos />
       </div>

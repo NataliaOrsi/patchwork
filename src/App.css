@@ -1,6 +1,13 @@
 body {
    background-color: rgba(171, 205, 203, 0.3);
 }
+
+h2 {
+  font-size: 48px;
+  padding: 20px;
+  color: #c84361;
+}
+
 .App nav {
   box-shadow: rgba(114, 73, 100, 0.08) 0px 8px 8px 0;
 }
@@ -10,13 +17,13 @@ body {
   color: #c84361;
 }
 
-.App .Home h2 {
+.App .Home h3 {
   font-size: 30px;
   margin-left: 100px;
   color: rgba(231, 135, 117, 0.5);
 }
 
-.App h2 {
+.App h3 {
   font-size: 30px;
   color: #c84361;
 }
@@ -53,4 +60,21 @@ body {
   line-height: 1.5;
   letter-spacing: 1px;
   text-align: justify;
+}
+
+.contact-details {
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+.contact-details h4 {
+  color: rgba(231, 135, 117);
+  font-size: 36px;
+  margin: 5px;
+}
+
+.contact-details a {
+  font-size: 20px;
+  display: inline-block;
+  margin: 5px 5px 40px;
 }
