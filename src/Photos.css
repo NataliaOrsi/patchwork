@@ -1,50 +1,51 @@
 .Photos {
-    
-    height: 800px;
-    width: 1040px;
-    display: block;
-    margin: 70px auto;
-    
+    display: flex;
+    height: 100vh;
 }
 
-.Photos .bed {
-    height: 200px;
-    width: 300px;
-    margin-left: 150px;
-    margin-top: 100px;
-    border-radius: 4px;
+.Photos .portfolio-introduction h4 {
+    color: #c84361;
+    font-size: 36px;
 }
 
-.Photos .small-purse {
-    height: 288px;
-    width: 205px;
-    margin-left: -230px;
-    margin-bottom: -750px;
-    border-radius: 4px;
+.portfolio-introduction {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(231, 135, 117);
 }
 
-.Photos .cushions {
-    height: 184px;
-    width: 271px;
-    position: relative;
-    margin-left: 400px;
-    margin-top: -210px;
-    border-radius: 4px;
-
+.featured-portfolio {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.Photos .big-purse {
-    height: 185px;
-    width: 280px;
-    margin-left: 600px;
-    margin-top: -200px;
-    border-radius: 4px;
+.gallery-highlight {
+    width: 80%;
+    height: 50%;
+    border: 1px solid #ABCDCB;
 }
 
-.Photos .christmas-table-cover {
-    height: 193px;
-    width: 272px;
-    margin-left: -60px;
-    margin-top: 120px;
-    border-radius: 4px;
+.work-preview {
+    display: flex;
+    width: 80%;
+   
+}
+
+.work-preview img {
+    height: 150px;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    border: 2px solid #ABCDCB;
+}
+
+img.work-active {
+    opacity: 1;
 }

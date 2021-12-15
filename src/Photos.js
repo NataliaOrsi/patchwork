@@ -1,36 +1,32 @@
 import React from "react";
+import bedBig from "./img/bed_big.jpg";
+import bedSmall from "./img/bed_small.jpg";
+import embroideredBig from "./img/embroideredPurse_big.jpg";
+import embroideredSmall from "./img/embroideredPurse_small.jpg";
+import purseBig from "./img/purse_big.jpg";
+import purseSmall from "./img/purse_small.jpg";
+
 import "./Photos.css";
 
 export default function Photos() {
     return (
       <section className="Photos">
-        
-              <img
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/864/original/028.jpg?1635322952"
-                alt="colcha em patchwork"
-                className="bed"
-              />
-              <img
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/867/original/20191218_105406.jpg?1635323808"
-                alt="bolsa pequena em patchwork"
-                className="small-purse"
-              />
-              <img
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/866/original/20171214_140303.jpg?1635323103"
-                alt="bolsa grande em patchwork"
-                className="big-purse"
-              />
-              <img
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/865/original/264.jpg?1635323041"
-                alt="almofadas em patchwork"
-                className="cushions"
-              />
-
-              <img
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/868/original/20191224_111304.jpg?1635323979"
-                alt="toalha de natal em patchwork"
-                className="christmas-table-cover"
-              />
+        <div className="portfolio-introduction">
+          <h4>Meu portifolio</h4>
+          <p>Trabalhos feito a mão, com foco em bordado e patchwork.</p>
+        </div>
+        <div className="featured-portfolio">
+          <img
+            src={bedBig}
+            alt="colcha em patchwork"
+            className="gallery-highlight"
+          />
+          <div className="work-preview">
+            <img src={bedSmall} alt="Toalha de Mesa" className="work-active" />
+            <img src={embroideredSmall} alt="Bolsa Pequena Bordada" />
+            <img src={purseSmall} alt="Bolsa Grande em Patchwork" />
+          </div>
+        </div>
       </section>
     );
 }
