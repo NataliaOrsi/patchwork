@@ -39,12 +39,12 @@ h2 {
 
 .App footer {
   text-align: center;
-  margin-top: 10px;;
+  margin-top: 25px;
 }
 
 .App .header {
   text-align: center;
-  margin: 50px auto;
+  margin: 100px auto ; 
 }
 
 .about-paragraph {

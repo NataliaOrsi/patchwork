@@ -30,10 +30,6 @@ export default function Photos() {
 
     return (
       <section className="Photos">
-        <div className="portfolio-introduction">
-          <h4>Meu portifolio</h4>
-          <p>Trabalhos feito a mão, com foco em bordado e patchwork.</p>
-        </div>
         <div className="featured-portfolio">
           <img src={source} alt={subtitle} className="gallery-highlight" />
           <div className="work-preview">
