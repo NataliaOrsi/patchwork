@@ -16,11 +16,13 @@
     width: 80%;
     height: 85%;
     border: 1px solid #ABCDCB;
+    box-shadow: 30px 15px 30px #ABCDCB;
 }
 
 .work-preview {
     display: flex;
     width: 80%;
+    box-shadow: 30px 15px 30px #ABCDCB;
    
 }
 

@@ -1,10 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <div className="Contact">
       <section className="header">
-        <h2>Contato</h2>
+        <h2>{t('contactPage.title')}</h2>
       </section>
       <div className="contact-details">
         <h4>E-mail</h4>
