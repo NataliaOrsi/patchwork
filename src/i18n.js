@@ -12,11 +12,6 @@ i18n
   .use(Backend)
 
   .init({
-    react: {
-      // By default useSuspense is set to true so React needs fallback UI.
-      // Setting useSuspense to false will solve your problem as React will not need fallback UI anymore.
-      useSuspense: false,
-    },
     // reference: https://www.i18next.com/how-to/add-or-load-translations#load-using-a-backend-plugin
     backend: {
       fallbackLng: "pt",

@@ -8,7 +8,7 @@ h2 {
   color: #c84361;
 }
 
-.App nav {
+.App Nav {
   box-shadow: rgba(114, 73, 100, 0.08) 0px 8px 8px 0;
 }
 
@@ -28,12 +28,8 @@ h2 {
   color: #c84361;
 }
 
-.App nav li {
-  padding: 5px;
-}
-
 .App a {
-  color: #c84361;
+  color: #c84361!important; 
   text-decoration: none;
 }
 

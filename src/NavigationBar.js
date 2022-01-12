@@ -1,63 +1,63 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 
 const lngs = {
-  en: { nativeName: "English" },
-  pt: { nativeName: "Português" },
+  en: { flag: "🇺🇸" },
+  pt: { flag: "🇧🇷" },
 };
 
 export default function NavigationBar() {
   const { t, i18n } = useTranslation();
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          {Object.keys(lngs).map((lng) => (
-            <button
-              key={lng}
-              style={{
-                fontWeight: i18n.resolvedLanguage === lng ? "bold" : "normal",
-              }}
-              type="submit"
-              onClick={() => i18n.changeLanguage(lng)}
-            >
-              {lngs[lng].nativeName}
-            </button>
-          ))}
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div
-            className="collapse justify-content-end navbar-collapse"
-            id="navbarNav"
-          >
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/about">{t("navBar.title1")}</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/projects">{t("navBar.title2")}</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/order">{t("navBar.title3")}</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/contact">{t("navBar.title4")}</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Navbar bg="light" expand="lg">
+        <Container fluid>
+          <Navbar.Brand href="/">
+            {t("mainPage.title")}
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/">
+                Home
+              </Nav.Link>
+              <Nav.Link href="/about">
+                {t("navBar.title1")}
+              </Nav.Link>
+              <Nav.Link  href="/projects">
+                {t("navBar.title2")}
+              </Nav.Link>
+              <Nav.Link href="/order">
+                {t("navBar.title3")}
+              </Nav.Link>
+              <Nav.Link href="/contact">
+                {t("navBar.title4")}
+              </Nav.Link>
+            </Nav>
+            <Nav>
+              <NavDropdown
+                className="justify-content-end"
+                title="🌎"
+                id="basic-nav-dropdown"
+              >
+                {Object.keys(lngs).map((lng) => (
+                  <NavDropdown.Item
+                    key={lng}
+                    style={{
+                      fontWeight:
+                        i18n.resolvedLanguage === lng ? "bold" : "normal",
+                    }}
+                    type="submit"
+                    onClick={() => i18n.changeLanguage(lng)}
+                  >
+                    {lngs[lng].flag}
+                  </NavDropdown.Item>
+                ))}
+              </NavDropdown>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     );
 }
