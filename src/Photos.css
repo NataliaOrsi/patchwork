@@ -1,5 +1,19 @@
 .Photos {
     display: flex;
+    height: 50vh;
+}
+
+.featured-photos img {
+   margin: 0;
+   width: 100%;
+}
+
+.photo-items {
+    padding: 3px;
+}
+
+.Photos-projects {
+    display: flex;
     height: 130vh;
     justify-content: center;
 }

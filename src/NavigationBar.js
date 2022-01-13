@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-// import { Link } from "react-router-dom";
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 
 const lngs = {
