@@ -1,7 +1,12 @@
 {
   "mainPage": {
     "title": "Trabalhos em Patchwork",
-    "subtitle": "por Ivanete de Mesquita Orsi Vieira"
+    "subtitle": "por Ivanete de Mesquita Orsi Vieira",
+    "aboutParagraph": " Inspirada por minha mae, interessei-me e aprendi algumas formas de artesanato desde cedo. Ao buscar novas formas de expressar artes manuais, conheci o patchwork em 2005 e me apaixonei. Desde entao, dedico-me a aprender e aperfeicoar cada vez mais essa arte.",
+    "aboutButton": "Saiba mais",
+    "contactBoxText1": "Faca ja sua encomenda!",
+    "contactBoxText2": "Solicite aqui seu orcamento",
+    "contactBoxButton": "Encomendar"
   },
   "navBar": {
     "title1": "Sobre",

@@ -1,7 +1,12 @@
 {
   "mainPage": {
     "title": "Patchwork Creations",
-    "subtitle": "by Ivanete de Mesquita Orsi Vieira"
+    "subtitle": "by Ivanete de Mesquita Orsi Vieira",
+    "aboutParagraph": "Inspired by my mother, I became interested and learned some handcrafts from an early age. Looking for new ways to express manual arts, I discovered patchwork in 2005 and fell in love. Since so, I dedicated myself to learning and improving more and more this art.",
+    "aboutButton": "Learn more",
+    "contactBoxText1": "Make your order here!",
+    "contactBoxText2": "Ask for a quotation",
+    "contactBoxButton": "Order here"
   },
   "navBar": {
     "title1": "About",

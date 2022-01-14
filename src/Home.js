@@ -18,15 +18,11 @@ export default function Home() {
           <div className="row align-items-center">
             <div className="col-6 artist-paragraph">
               <p>
-                Inspirada por minha mae, interessei-me e aprendi algumas formas
-                de artesanato desde cedo. Ao buscar novas formas de expressar
-                artes manuais, conheci o patchwork em 2005 e me apaixonei. Desde
-                entao, dedico-me a aprender e aperfeicoar cada vez mais essa
-                arte.
+                {t("mainPage.aboutParagraph")}
               </p>
               <button>
                 <a href="/about" title="About">
-                  Saiba mais
+                  {t("mainPage.aboutButton")}
                 </a>
               </button>
             </div>
@@ -36,6 +32,19 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="container mt-5">
+        <div className="row d-none d-lg-flex justify-content-between align-items-center contact-box">
+          <div className="col-9">
+            <h4>{t("mainPage.contactBoxText1")}</h4>
+            <h5>{t("mainPage.contactBoxText2")}</h5>
+          </div>
+          <div className="col-3">
+            <button>
+              <a href="/order">{t("mainPage.contactBoxButton")}</a>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

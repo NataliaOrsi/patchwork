@@ -1,5 +1,5 @@
 body {
-   background-color: rgba(171, 205, 203, 0.3);
+  background-color: rgba(171, 205, 203, 0.3);
 }
 
 h2 {
@@ -31,11 +31,6 @@ h2 {
 .App a {
   color: #c84361!important; 
   text-decoration: none;
-}
-
-.App footer {
-  text-align: center;
-  margin-top: 25px;
 }
 
 .App .header {
@@ -73,6 +68,38 @@ h2 {
   align-items: center;
 }
 
+.contact-box {
+  background-color: rgba(231, 135, 117, 0.5);
+  border-radius: 120px;
+  margin: 100px 80px 60px;
+  padding: 30px 80px;
+}
+
+.contact-box h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #c84361;
+}
+
+.contact-box h5 {
+  font-size: 28px;
+  color: #c84361;
+}
+
+.contact-box button {
+  background-color: #c84361;
+  border: 1px solid #c84361;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.contact-box button a {
+  color: white!important;
+
+}
+
 .about-paragraph {
   margin: 40px 500px;
   padding: 30px 60px;
@@ -103,4 +130,43 @@ h2 {
   font-size: 20px;
   display: inline-block;
   margin: 5px 5px 40px;
+}
+
+.Footer {
+line-height: 21px;
+text-align: center;
+font-size: 10px;
+color: #c84361;
+margin-top: 25px;
+position: absolute;
+width: 100%
+}
+
+
+.Footer h5 {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.Footer h6 {
+  font-size: 15px;
+}
+
+.Footer a {
+  font-size: 16px;
+}
+
+.Footer .social-links {
+  margin: 30px 0;
+}
+
+.Footer .social-links a {
+  margin: 20px;
+  padding: 10px 14px;
+  font-size: 24px;
+}
+
+.Footer small {
+  color: rgba(92, 35, 47, 0.8);
 }

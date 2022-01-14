@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Order from "./Order";
 import Contact from "./Contact";
 import NotFoundPage from "./NotFoundPage";
+import Footer from "./Footer";
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 
@@ -23,12 +24,7 @@ function App() {
           <Route path="/notfoundpage" exact component={NotFoundPage} />
           <Redirect to="/NotFoundPage" />
         </Switch>
-        <footer>
-          <small>
-            This website was coded by Natalia de Mesquita Orsi Vieira and is
-            open-sourced in GitHub
-          </small>
-        </footer>
+        <Footer />
       </div>
     </Router>
   );
