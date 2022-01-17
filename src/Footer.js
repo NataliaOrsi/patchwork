@@ -1,11 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <div className="Footer bg-light">
       <footer>
         <div className="footer-information">
-          <h5>Trabalhos em Patchwork</h5>
+          <h5>{t("mainPage.title")}</h5>
           <a
             href="mailto:ivanetedemesquita@hotmail.com"
             target="_blank"

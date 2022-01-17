@@ -100,12 +100,16 @@ h2 {
 
 }
 
+.about-content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .about-paragraph {
-  margin: 40px 500px;
   padding: 30px 60px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  box-shadow: 10px 5px 5px rgb(173, 173, 173);
+  border: 5px dotted rgb(171, 205, 203);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  background-color: #fff;
 }
 
 .about-paragraph p {
@@ -113,6 +117,15 @@ h2 {
   line-height: 1.5;
   letter-spacing: 1px;
   text-align: justify;
+  color: rgba(92, 35, 47, 0.8);
+}
+
+.about-photo img {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .contact-details {

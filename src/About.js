@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import Ivanete from "./img/Ivanete.jpg";
 
 export default function About() {
   const { t } = useTranslation();
@@ -8,8 +9,15 @@ export default function About() {
       <section className="header">
         <h2>{t("aboutPage.title")}</h2>
       </section>
-      <div className="about-paragraph">
-        <p>{t("aboutPage.paragraph")}</p>
+      <div className="container-fluid">
+        <div className="row align-items-center mb-5 about-content">
+          <div className="col-6 about-photo">
+            <img src={Ivanete} alt="Colcha em patchwork" />
+          </div>
+          <div className="col-6 about-paragraph">
+            <p>{t("aboutPage.paragraph")}</p>
+          </div>
+        </div>
       </div>
     </div>
   );
