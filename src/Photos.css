@@ -14,29 +14,30 @@
 
 .Photos-projects {
     display: flex;
-    height: 130vh;
     justify-content: center;
-}
-
-.featured-portfolio {
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .gallery-highlight {
-    width: 80%;
-    height: 85%;
+    width: 100%;
+    height: 100%;
     border: 1px solid #ABCDCB;
-    box-shadow: 30px 15px 30px #ABCDCB;
+    padding: 180px 100px;
+    border: 5px dotted rgb(171, 205, 203);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+
+.work-gallery {
+    padding: 50px 50px;
+    border: 5px dotted rgb(171, 205, 203);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    width: 50%;
 }
 
 .work-preview {
     display: flex;
-    width: 80%;
-    box-shadow: 30px 15px 30px #ABCDCB;
+    width: 90%;
+    margin: 0 auto;
    
 }
 
