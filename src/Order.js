@@ -29,7 +29,7 @@ export default function Order() {
   }
 
   return (
-    <div className="Encomende">
+    <div className="Order">
       <section className="header">
         <h2>{t("orderPage.title")}</h2>
       </section>
@@ -59,10 +59,13 @@ export default function Order() {
                 onChange={updateMessage}
               ></textarea>
             </div>
-            <button
-              type="submit"
-            >
-              Submit
+            <button type="submit">
+              <a
+                href="mailto:ivanetedemesquita@hotmail.com"
+                title="Send an e-mail to Ivanete"
+              >
+                Submit
+              </a>
             </button>
           </form>
         </div>

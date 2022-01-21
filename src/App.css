@@ -156,9 +156,17 @@ h2 {
   height: 280px;
 }
 
+.order-form button a {
+  color: #fff!important;
+}
+
 .contact-details {
   text-align: center;
-  margin: 0 0 40px;
+  padding: 30px;
+  border: 5px dotted rgb(171, 205, 203);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  width: 100%;
+  margin: 0 40px;
 }
 
 .contact-details h4 {

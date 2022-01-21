@@ -1,7 +1,7 @@
 import React from "react";
-import bedSmall from "./img/bed_small.jpg";
-import embroideredSmall from "./img/embroideredPurse_small.jpg";
-import purseSmall from "./img/purse_small.jpg";
+import bedSmall from "./img/bed_big.jpg";
+import embroideredSmall from "./img/embroideredPurse_big.jpg";
+import purseSmall from "./img/purse_big.jpg";
 
 import "./Photos.css";
 
