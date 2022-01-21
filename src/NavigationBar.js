@@ -22,16 +22,16 @@ export default function NavigationBar() {
               <Nav.Link href="/">
                 Home
               </Nav.Link>
-              <Nav.Link href="#about">
+              <Nav.Link href="/about">
                 {t("navBar.title1")}
               </Nav.Link>
-              <Nav.Link  href="#projects">
+              <Nav.Link  href="/projects">
                 {t("navBar.title2")}
               </Nav.Link>
-              <Nav.Link href="#order">
+              <Nav.Link href="/order">
                 {t("navBar.title3")}
               </Nav.Link>
-              <Nav.Link href="#contact">
+              <Nav.Link href="/contact">
                 {t("navBar.title4")}
               </Nav.Link>
             </Nav>
