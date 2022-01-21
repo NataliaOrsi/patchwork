@@ -194,28 +194,65 @@ width: 100%
 
 .Footer h5 {
   margin-top: 10px;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
 }
 
-.Footer h6 {
-  font-size: 15px;
-}
-
 .Footer a {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .Footer .social-links {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .Footer .social-links a {
   margin: 20px;
-  padding: 10px 14px;
+  padding: 10px 12px;
   font-size: 24px;
 }
 
 .Footer small {
   color: rgba(92, 35, 47, 0.8);
+}
+
+@media (max-width: 576px) { 
+  .gallery-highlight {
+    padding: 90px 50px;
+  }
+
+  .featured-portfolio p {
+    left: 55px;
+    bottom: 90px;
+  }
+
+  .work-preview {
+    display: block;
+  }
+
+  .contact-details a {
+    font-size: 18px;
+  }
+
+  .about-photo img {
+    width: 80%;
+  }
+
+}
+
+@media (max-width:992px) {
+
+
+  .about-content {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .about-paragraph {
+    padding: 30px;
+  }
+
+  .about-paragraph p {
+    font-size: 16px;
+  }
 }

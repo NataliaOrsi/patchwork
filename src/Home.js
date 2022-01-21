@@ -16,17 +16,15 @@ export default function Home() {
       <section className="artist">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-6 artist-paragraph">
-              <p>
-                {t("mainPage.aboutParagraph")}
-              </p>
+            <div className="col-xl-6 artist-paragraph">
+              <p>{t("mainPage.aboutParagraph")}</p>
               <button>
                 <a href="/about" title="About">
                   {t("mainPage.aboutButton")}
                 </a>
               </button>
             </div>
-            <div className="col-6 artist-photo">
+            <div className="col-xl-6 artist-photo d-none d-xl-block">
               <img src={Ivanete} alt="Colcha em patchwork" />
             </div>
           </div>

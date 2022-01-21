@@ -11,10 +11,10 @@ export default function About() {
       </section>
       <div className="container-fluid">
         <div className="row align-items-center mb-5 about-content">
-          <div className="col-6 about-photo">
+          <div className="col-xl-6 about-photo mt-5 mb-5">
             <img src={Ivanete} alt="Colcha em patchwork" />
           </div>
-          <div className="col-6 about-paragraph">
+          <div className="col-xl-6 about-paragraph">
             <p>{t("aboutPage.paragraph")}</p>
           </div>
         </div>

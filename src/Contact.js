@@ -11,7 +11,7 @@ export default function Contact() {
       </section>
       <div className="container mb-5">
         <div className="row align-items-center">
-          <div className="col-md-6 d-flex justify-content-end">
+          <div className="col-xl-6 d-flex justify-content-end">
             <div className="contact-details">
               <h4 className="mt-4">
                 <i className="far fa-envelope"></i> E-mail
@@ -42,8 +42,12 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <div className="col-lg-6 about-photo">
-            <img src={Ivanete} alt="Colcha em patchwork" className="img-fluid" />
+          <div className="col-xl-6 about-photo d-none d-xl-block">
+            <img
+              src={Ivanete}
+              alt="Colcha em patchwork"
+              className="img-fluid"
+            />
           </div>
         </div>
       </div>
