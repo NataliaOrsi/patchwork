@@ -216,6 +216,11 @@ width: 100%
   color: rgba(92, 35, 47, 0.8);
 }
 
+.Footer .coder-info {
+  color: rgba(92, 35, 47, 0.8)!important;
+  font-size: 8.75px;
+}
+
 @media (max-width: 576px) { 
   .gallery-highlight {
     padding: 90px 50px;
@@ -228,6 +233,10 @@ width: 100%
 
   .work-preview {
     display: block;
+  }
+
+  .contact-details {
+    margin: 0;
   }
 
   .contact-details a {
@@ -244,8 +253,8 @@ width: 100%
 
 
   .about-content {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .about-paragraph {

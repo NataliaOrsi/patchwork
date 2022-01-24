@@ -46,7 +46,8 @@ export default function Footer() {
         </div>
         <small>
           This website was coded by Natalia de Mesquita Orsi Vieira and is
-          open-sourced in GitHub
+          open-sourced in{" "}
+          <a href="https://github.com/NataliaOrsi/patchwork" className="coder-info" title="Coder Github">GitHub</a>
         </small>
       </footer>
     </div>
