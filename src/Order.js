@@ -38,7 +38,7 @@ export default function Order() {
           <form onSubmit={handleSubmit}>
             <div className="form-group mb-3 text-center">
               <label for="exampleFormControlInput1" className="mb-1">
-                E-mail address
+                {t("orderPage.email")}
               </label>
               <input
                 type="email"
@@ -50,7 +50,7 @@ export default function Order() {
             </div>
             <div className="form-group mb-3 text-center">
               <label for="exampleFormControlTextarea1" className="mb-1">
-                Especifique o seu pedido:{" "}
+                {t("orderPage.order")}
               </label>
               <textarea
                 className="form-control order-text-area"

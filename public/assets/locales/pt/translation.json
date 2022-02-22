@@ -33,7 +33,9 @@
     "item11": "Bolsinha para aviamentos"
   },
   "orderPage": {
-    "title": "Faça sua encomenda aqui: "
+    "title": "Faça sua encomenda aqui: ",
+    "email": "Endereço de e-mail: ",
+    "order": "Specify your order: "
   },
   "contactPage": {
     "title": "Contato"

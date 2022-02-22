@@ -33,7 +33,9 @@
     "item11": "Sewing Bag"
   },
   "orderPage": {
-    "title": "Order here: "
+    "title": "Order here: ",
+    "email": "E-mail address: ",
+    "order": "Specify your order: "
   },
   "contactPage": {
     "title": "Contact"
